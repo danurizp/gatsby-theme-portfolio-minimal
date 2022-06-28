@@ -10,7 +10,7 @@ export function AuthorSnippet(): React.ReactElement {
             <GatsbyImage image={avatar.childImageSharp.gatsbyImageData} alt={author} className={classes.Avatar} />
             <div className={classes.Description}>
                 <span className={classes.WrittenBy}>
-                    Written By <u>{author}</u>
+                    Escrito por <u>{author}</u>
                 </span>
                 <p className={classes.Bio}>{bio}</p>
             </div>
